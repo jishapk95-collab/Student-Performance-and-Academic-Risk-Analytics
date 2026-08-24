@@ -2,8 +2,8 @@
 
 This project is to perform a comprehensive exploratory data analysis on a multi-source educational dataset to identify the demographic, behavioural, academic, and contextual factors associated with student academic performance and academic risk using Python.
 
-
-**Background**:
+_
+**Background**:_
 Educational institutions increasingly rely on learning analytics to understand student engagement, academic performance, and the factors contributing to student success or academic risk. With the rapid growth of online and blended learning environments, analysing educational data has become essential for improving teaching strategies, identifying at-risk students, and supporting evidence-based decision-making.
 This project focuses on analysing a comprehensive educational dataset that integrates student demographic information, academic records, learning behaviour within the Virtual Learning Environment (VLE), and external socioeconomic indicators. By applying Exploratory Data Analysis (EDA) techniques using Python, the project aims to identify meaningful patterns, relationships, and trends that influence student academic performance and risk.
 The proposed project aligns with the Education Analytics domain and provides an opportunity to demonstrate practical data analytics skills, including data preprocessing, statistical analysis, data visualization, and insight generation.
