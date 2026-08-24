@@ -1,91 +1,186 @@
-# Student Performance and Academic Risk Analytics: An Exploratory Data Analysis of Multi-Source Educational Data Using Python
+Student Performance and Academic Risk Analytics
+📊 Exploratory Data Analysis of Multi-Source Educational Data Using Python
+Project Overview
 
-This project is to perform a comprehensive exploratory data analysis on a multi-source educational dataset to identify the demographic, behavioural, academic, and contextual factors associated with student academic performance and academic risk using Python.
+This project analyses student academic performance and academic risk using a multi-source educational dataset containing demographic, academic, behavioural and contextual information. The project applies an end-to-end Exploratory Data Analysis (EDA) workflow using Python to identify patterns and relationships associated with student outcomes.
 
-**Background**:
-Educational institutions increasingly rely on learning analytics to understand student engagement, academic performance, and the factors contributing to student success or academic risk. With the rapid growth of online and blended learning environments, analysing educational data has become essential for improving teaching strategies, identifying at-risk students, and supporting evidence-based decision-making.
-This project focuses on analysing a comprehensive educational dataset that integrates student demographic information, academic records, learning behaviour within the Virtual Learning Environment (VLE), and external socioeconomic indicators. By applying Exploratory Data Analysis (EDA) techniques using Python, the project aims to identify meaningful patterns, relationships, and trends that influence student academic performance and risk.
-The proposed project aligns with the Education Analytics domain and provides an opportunity to demonstrate practical data analytics skills, including data preprocessing, statistical analysis, data visualization, and insight generation.
+The analysis particularly focuses on the relationship between Virtual Learning Environment (VLE) engagement, academic performance and academic risk, while also examining demographic, educational, regional and socioeconomic factors.
 
-**Aim**:
-The aim of this project is to perform a comprehensive exploratory data analysis on a multi-source educational dataset to identify the demographic, behavioural, academic, and contextual factors associated with student academic performance and academic risk using Python.
+🎯 Aim
 
-**Objectives**:
-The project will achieve the following objectives:
-1.	Import and explore the dataset using Python libraries such as Pandas. 
-2.	Perform data cleaning and preprocessing, including handling missing values, duplicates, incorrect data types, and feature engineering. 
-3.	Conduct univariate, bivariate, and multivariate exploratory data analysis. 
-4.	Analyse relationships between student demographics, learning behaviour, academic performance, and contextual socioeconomic factors. 
-5.	Develop meaningful visualizations using Matplotlib, Seaborn, and Plotly. 
-6.	Generate statistical summaries, correlation analysis, pivot tables, and group-based analyses. 
-7.	Derive actionable insights that explain the factors influencing student academic performance and academic risk. 
+To conduct a comprehensive exploratory data analysis of multi-source educational data to identify demographic, behavioural, academic and contextual factors associated with student academic performance and academic risk using Python.
 
-**Problem Statement**:
-Educational performance is influenced by multiple factors beyond examination scores, including student engagement, demographic characteristics, previous academic experience, and external socioeconomic conditions. Understanding how these factors interact can help educational institutions identify students at risk and support evidence-based interventions. Therefore, this project aims to analyse these multidimensional factors using exploratory data analytics techniques.
+📌 Objectives
+Import and explore the educational dataset using Python.
+Clean and preprocess the dataset.
+Examine missing values, duplicates, data types and categorical variables.
+Conduct univariate, bivariate and multivariate EDA.
+Analyse relationships between student engagement and academic outcomes.
+Examine demographic, educational, regional and contextual patterns.
+Perform correlation, GroupBy and pivot-table analysis.
+Create meaningful data visualisations using Python.
+Generate actionable, data-informed insights and recommendations.
+📂 Dataset
 
-**Justification for Topic Selection**:
-This project was selected because it combines educational, behavioural, and socioeconomic data within a single analytical framework, allowing for comprehensive exploratory data analysis. The dataset is sufficiently large, diverse, and well-structured, making it suitable for demonstrating Python-based data analytics techniques. Furthermore, the topic aligns with the Education Analytics domain specified in the module guidelines and provides opportunities to apply data preprocessing, statistical analysis, visualization, and insight generation to a real-world educational problem.
-**Dataset Description**:
-The project will utilise the Multi-Source Educational Analytics Dataset for Student Performance and Contextual Analysis, published on Mendeley Data.
+The project uses:
 
-**Dataset Citation**:
-Elzeki, O., Kamel, G., Sameh, S., Amria, O., Moharam, O., & Ismail, A. (2026). Multi-Source Educational Analytics Dataset for Student Performance and Contextual Analysis (Version 1). Mendeley Data. https://doi.org/10.17632/rkrptyy994.1
+Multi-Source Educational Analytics Dataset for Student Performance and Contextual Analysis
 
-The dataset consists of 32,593 records and 20 variables, exceeding the project requirement of a minimum of 500 records and 10 features. It integrates multiple publicly available data sources, including:
-•	Open University Learning Analytics Dataset (OULAD) 
-•	Ofcom regional broadband statistics 
-•	UK Office for National Statistics (ONS) unemployment data 
-The dataset combines educational, behavioural, demographic, and socioeconomic information to provide a holistic view of student learning.
-Key variables include:
-•	Student demographics (gender, age band, highest education, region) 
-•	Academic information (course module, credits studied, previous attempts) 
-•	Learning engagement (VLE clicks, learning materials accessed, assessments submitted) 
-•	Contextual variables (regional unemployment rate, average broadband speed) 
-•	Academic outcome (student academic risk) 
-The dataset is fully anonymised and available in CSV format, making it suitable for Python-based data analysis.
+Authors: Elzeki, O., Kamel, G., Sameh, S., Amria, O., Moharam, O., & Ismail, A.
+Year: 2026
+Version: 1
+Source: Mendeley Data
+DOI: 10.17632/rkrptyy994.1
 
-**Methodology**
-The project will be followed a structured data analytics workflow aligned with the assessment requirements.
-Phase 1: Data Loading
-•	Import the CSV dataset using Pandas 
-•	Explore dataset dimensions 
-•	Examine data types 
-•	Generate descriptive statistics 
-Phase 2: Data Pre-processing
-•	Handle missing values 
-•	Remove duplicate records 
-•	Correct data types 
-•	Create derived variables 
-•	Aggregate and filter data where necessary 
-Phase 3: Exploratory Data Analysis
-The analysis will include:
-•	Univariate analysis 
-•	Bivariate analysis 
-•	Multivariate analysis 
-•	Correlation analysis 
-•	GroupBy analysis 
-•	Pivot tables 
-•	Statistical summaries 
-Phase 4: Data Visualization
-The project will create more than ten visualizations, including:
-•	Bar charts 
-•	Histograms 
-•	Pie charts 
-•	Box plots 
-•	Scatter plots 
-•	Heatmaps 
-•	Line charts 
-•	Correlation matrix 
-•	Distribution plots 
-•	Comparative visualizations 
-using Matplotlib, Seaborn, and Plotly.
-Phase 5: Insight Generation
-The findings will be interpreted to identify:
-•	Factors influencing student academic risk 
-•	Patterns in learning engagement 
-•	Demographic trends 
-•	Regional differences 
-•	Relationships between behavioural and academic variables 
-Recommendations for improving student engagement and academic outcomes will also be discussed.
+The dataset contains:
 
+32,593 records
+20+ variables
+Demographic information
+Academic information
+VLE engagement measures
+Regional socioeconomic indicators
+Academic outcome/risk information
+Main Variables
+Category	Examples
+Student demographics	Gender, age band, region
+Educational background	Highest education, previous attempts
+Academic information	Studied credits, final weighted score
+VLE engagement	Total clicks, materials accessed, assessments submitted
+Contextual factors	Unemployment rate, broadband speed
+Outcome	Academic risk
+🛠️ Technologies Used
+Python
+Jupyter Notebook
+Pandas – Data manipulation and analysis
+NumPy – Numerical operations
+Matplotlib – Data visualisation
+Seaborn – Statistical visualisation
+Plotly – Interactive visualisation
+🔄 Project Workflow
+Dataset
+   ↓
+Data Loading
+   ↓
+Initial Data Exploration
+   ↓
+Data Cleaning & Pre-processing
+   ↓
+Feature Preparation
+   ↓
+Univariate Analysis
+   ↓
+Bivariate Analysis
+   ↓
+Multivariate Analysis
+   ↓
+Correlation & GroupBy Analysis
+   ↓
+Pivot Table Analysis
+   ↓
+Data Visualisation
+   ↓
+Key Insights
+   ↓
+Recommendations
+   ↓
+Conclusion
+🧹 Data Cleaning and Pre-processing
 
+The following preprocessing activities were performed:
+
+Checked dataset dimensions and structure.
+Examined variable data types.
+Checked for missing values.
+Checked for duplicate records.
+Examined categorical variables and their frequencies.
+Reviewed numerical variables using descriptive statistics.
+Investigated unusual values and distributions.
+Prepared engagement-related variables for analysis.
+Used filtering and aggregation where appropriate.
+Prepared grouped datasets for regional, module, engagement and risk analysis.
+📈 Exploratory Data Analysis
+
+The analysis included:
+
+Univariate Analysis
+
+Examined individual variables such as:
+
+Gender
+Age band
+Academic risk
+Final weighted score
+VLE clicks
+Engagement level
+Bivariate Analysis
+
+Examined relationships between:
+
+Engagement and academic score
+Engagement and academic risk
+Previous attempts and academic performance
+Education level and academic risk
+Region and academic performance
+VLE clicks and academic scores
+Learning-material access and academic performance
+Multivariate Analysis
+
+The project also used:
+
+Correlation analysis
+Correlation heatmaps
+Pivot tables
+Engagement-level comparisons
+Course-module comparisons
+Group-based analysis
+📊 Visualisations
+
+The project includes 15 visualisations, exceeding the minimum requirement of 10.
+
+Visualisation techniques include:
+
+Bar charts
+Pie charts
+Histograms
+Box plots
+Scatter plots
+Correlation heatmaps
+Pivot heatmaps
+Distribution plots
+Comparative visualisations
+
+The visualisations were used to identify patterns in student engagement, academic performance, academic risk and contextual variables.
+
+🔍 Key Findings
+
+The analysis identified several important patterns:
+
+Higher VLE engagement is associated with higher academic scores.
+Low-engagement students show considerably higher levels of academic risk.
+Total VLE clicks, learning-material access and assessment submission are positively associated with academic performance.
+Students with lower prior educational attainment generally show higher academic risk.
+Regional differences exist in average academic performance.
+Students with multiple previous course attempts show differences in academic performance.
+VLE engagement variables show stronger relationships with academic performance than the examined contextual variables.
+Average regional broadband speed shows a relatively weak relationship with individual academic outcomes.
+💡 Recommendations
+
+Based on the EDA findings, the following recommendations are proposed:
+
+Target low-engagement students: Monitor low VLE clicks, limited material access and low assessment submission to identify students requiring additional support.
+Introduce early engagement monitoring: Track VLE activity during the early stages of courses to identify disengagement and provide timely academic guidance.
+Encourage learning-material use: Encourage students to access a wider range of relevant learning resources.
+Improve assessment participation: Use reminders, clearer communication and academic support to encourage timely assessment submission.
+Support students with lower educational attainment: Provide foundation resources, academic-skills workshops and additional tutoring.
+Support repeat-attempt students: Offer personalised guidance and progress monitoring to students with multiple previous attempts.
+Monitor engagement by module: Analyse module-level engagement and investigate areas where low engagement coincides with poorer outcomes.
+Prioritise student-level support: Greater attention should be given to student engagement and academic support rather than relying primarily on regional broadband indicators.
+
+Author
+JISHA P K
+🎓 Academic Project
+Project Domain: Education Analytics
+Project Type: Exploratory Data Analysis
+Tools: Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly
+Analysis Environment: Jupyter Notebook
