@@ -44,5 +44,48 @@ Key variables include:
 •	Academic outcome (student academic risk) 
 The dataset is fully anonymised and available in CSV format, making it suitable for Python-based data analysis.
 
+**Methodology**
+The project will be followed a structured data analytics workflow aligned with the assessment requirements.
+Phase 1: Data Loading
+•	Import the CSV dataset using Pandas 
+•	Explore dataset dimensions 
+•	Examine data types 
+•	Generate descriptive statistics 
+Phase 2: Data Pre-processing
+•	Handle missing values 
+•	Remove duplicate records 
+•	Correct data types 
+•	Create derived variables 
+•	Aggregate and filter data where necessary 
+Phase 3: Exploratory Data Analysis
+The analysis will include:
+•	Univariate analysis 
+•	Bivariate analysis 
+•	Multivariate analysis 
+•	Correlation analysis 
+•	GroupBy analysis 
+•	Pivot tables 
+•	Statistical summaries 
+Phase 4: Data Visualization
+The project will create more than ten visualizations, including:
+•	Bar charts 
+•	Histograms 
+•	Pie charts 
+•	Box plots 
+•	Scatter plots 
+•	Heatmaps 
+•	Line charts 
+•	Correlation matrix 
+•	Distribution plots 
+•	Comparative visualizations 
+using Matplotlib, Seaborn, and Plotly.
+Phase 5: Insight Generation
+The findings will be interpreted to identify:
+•	Factors influencing student academic risk 
+•	Patterns in learning engagement 
+•	Demographic trends 
+•	Regional differences 
+•	Relationships between behavioural and academic variables 
+Recommendations for improving student engagement and academic outcomes will also be discussed.
 
 
